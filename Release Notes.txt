@@ -1,0 +1,11 @@
+10/13/2013 Initial Release
+           Supported data types:
+		   All number types including floats, integers and complex data types.
+		   Timestamp, Boolean, String, Path, Picture
+		   Array, Cluster
+		   Enums (Handled by setting JSON Value to string value not number)
+		   
+		   Unsupported data types:
+		   Tag, ExpressData, External Data, Waveform, Digital Waveform
+		   Variant, LV Variant, VI, Poly VI, LabVIEW Class Instance
+		   Digital Data, Refnum, Fixed Point
