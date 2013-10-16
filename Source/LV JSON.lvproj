@@ -22,6 +22,7 @@
 			<Item Name="JSONLint - The JSON Validator..url" Type="Document" URL="../../JSONLint - The JSON Validator..url"/>
 			<Item Name="Release Notes.txt" Type="Document" URL="../../Release Notes.txt"/>
 		</Item>
+		<Item Name=".vipb" Type="Document" URL="../.vipb"/>
 		<Item Name="LV JSON.lvlib" Type="Library" URL="../LV JSON.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
