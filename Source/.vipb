@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.4" Created_Date="2013-10-14 13:04:52" Modified_Date="2014-04-16 12:23:04" Creator="Matt" Comments="" ID="730ac3fe5ad4a5ca62f1af9c9e4fd337">
+<VI_Package_Builder_Settings Version="0.4" Created_Date="2013-10-14 13:04:52" Modified_Date="2014-05-01 15:30:38" Creator="Matt" Comments="" ID="e5d77288500595c6a357120d3b6b386d">
   <Library_General_Settings>
     <Package_File_Name>phaeron,_inc_lib_json</Package_File_Name>
-    <Library_Version>1.2.0.13</Library_Version>
+    <Library_Version>1.2.1.14</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\Builds</Library_Output_Folder>
@@ -31,7 +31,7 @@
       <Copyright>Copyright (c) 2013, Phaeron, Inc.</Copyright>
       <Packager>Phaeron, Inc.</Packager>
       <URL>https://github.com/phaeron/LVJSON</URL>
-      <Release_Notes>Updated Pretty Print to be faster. Needs testing.</Release_Notes>
+      <Release_Notes>Bugfix for issue with LabVIEW where it couldn't handle 9 as a value.</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -225,7 +225,7 @@
         <Path>Pretty Print.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>DA87CA4AA1AA9440DD0833F24E23EA57</GUID>
+      <GUID>4ABB5557B73C5111D89F95FBF7E590FA</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -288,7 +288,7 @@
         <Path>Examples\testarrayofclusters.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>854CE329926E99235F8B9180DBC893BE</GUID>
+      <GUID>78C992C1F93F5460A519219434EE88AC</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
